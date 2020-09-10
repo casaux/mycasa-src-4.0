@@ -9,10 +9,14 @@ main{
 	background: #fff;
 }
 
-.banner{
-	background: #313131;
+.banner {
+    height:0px;
+    border-bottom: 4pt solid black;
+    overflow: hidden !important;
+    padding:0 !important;
+    background: #313131;
 	color: #FFFFFF;
-	padding:10px;
+	
 }
 
 
@@ -83,6 +87,13 @@ main{
 	padding-top:0.85rem;
 	position:relative;
 	font-size:.875rem;
+}
+
+.footer .banner {
+    border: none;
+    padding:10px !important;
+    height:25px !important;
+
 }
 
 .footer{
