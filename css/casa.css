@@ -103,6 +103,7 @@ main{
 	min-height:200px;
 	z-index:2000;
 	position: relative;
+	border-bottom: 10px solid #0080A2;
 }
 
 
