@@ -16,7 +16,7 @@ main{
     padding:0 !important;
     background: #313131;
 	color: #FFFFFF;
-	
+
 }
 
 
@@ -92,7 +92,8 @@ main{
 .footer .banner {
     border: none;
     padding:10px !important;
-    height:25px !important;
+    height:auto !important;
+		background:#313131;
 
 }
 
