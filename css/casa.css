@@ -89,6 +89,18 @@ main{
 	font-size:.875rem;
 }
 
+table.au-table th a{
+
+}
+
+table.au-table th:nth-child(1) a{
+
+}
+
+table.au-table th img{
+	display:none;
+}
+
 .footer .banner {
     border: none;
     padding:10px !important;
