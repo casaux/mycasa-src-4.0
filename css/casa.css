@@ -296,6 +296,11 @@ table.au-table th img{
     color: #000000;
     background-color: #F5F5F5;
 }
+.badge-info {
+    background-color: #02BFE9;
+    color: #000;
+}
+
 .badge-rec {
     color: #000000;
 }
