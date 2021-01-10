@@ -349,17 +349,17 @@ table.au-table th img{
 }
 */
 
-.casa-sort-table a::after{
+th.casa-sort-table td a::after{
 content: " ▼";
 opacity:0;
 }
 
-.casa-sort-header-sorted-asc a::after{
+th.casa-sort-header-sorted-asc a::after{
 	content: " ▼";
 	opacity:1;
 }
 
-.casa-sort-header-sorted-desc a::after{
+th.casa-sort-header-sorted-desc a::after{
 	content: " ▲";
 	opacity:1;
 }
