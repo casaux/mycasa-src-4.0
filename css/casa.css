@@ -300,6 +300,10 @@ table.au-table th img{
     background-color: #02BFE9;
     color: #000;
 }
+.badge-beta {
+    background-color: #313131;
+    color: #FFFFFF;
+}
 
 .badge-rec {
     color: #000000;
@@ -405,6 +409,31 @@ section.au-callout{
 
 .au-body hr{
 	margin-top:4rem;
+}
+.hr-divider {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 5em;
+}
+
+.hr-divider .rounded-border {
+    border: 1px solid #999;
+    background-color: white;
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 2px;
 }
 
 /* device-specific media queries
